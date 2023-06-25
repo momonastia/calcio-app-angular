@@ -1,1 +1,34 @@
-<p>home works!</p>
+<!--------HEADER---------->
+
+<header>
+  <mat-toolbar color="primary">
+    <img src="../../assets/imgCalcio.png"  width="30" height="30">
+    <span>Almanacco Calcio</span>
+    <span class="example-spacer"></span>
+  </mat-toolbar>
+</header>
+
+<!------------------>
+
+<!-----MAIN---------->
+<div class="formBody">
+  <form class="selectStyle" #teamForm="ngForm">
+    <mat-form-field>
+      <mat-label>Squadra</mat-label>
+      <mat-select [(ngModel)]="selectedResponse" required name="selectedResponse" (ngModelChange)="showDetails = false;">
+        <mat-option>--</mat-option>
+        <mat-option *ngFor="let r of responses" [value]="r">
+          {{ r.team?.name }}
+        </mat-option>
+      </mat-select>
+      <mat-error *ngIf="!teamForm.form.valid">Scegli squadra</mat-error>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="showDetails = true" class="buttonStyle">Seleziona</button>
+  </form>
+</div>
+<!------------->
+
+<!--passo l'oggetto response selezionato al componente team-details-->
+<app-team-details *ngIf="showDetails && selectedResponse" [response]="selectedResponse"></app-team-details>
+

@@ -1,0 +1,19 @@
+<div class="card-body">
+  <div class="cardStyle">
+    <mat-card class="example-card">
+      <mat-card-header>
+        <mat-card-title class="card-title">{{
+          response?.team?.name
+        }}</mat-card-title>
+        <mat-card-subtitle>{{ response?.team?.founded }}</mat-card-subtitle>
+      </mat-card-header>
+      <img mat-card-image src="{{ response?.team?.logo }}" />
+      <mat-card-subtitle>{{ response?.venue?.address }}</mat-card-subtitle>
+      <mat-card-actions>
+        <a mat-button [routerLink]="['team', response?.team?.id]">
+          Formazione
+        </a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

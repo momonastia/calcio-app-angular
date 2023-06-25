@@ -1,0 +1,47 @@
+<!--------HEADER---------->
+
+<header>
+  <mat-toolbar color="primary">
+    <img src="../../assets/imgCalcio.png" width="30" height="30" />
+    <span>Formazione</span>
+    <span class="spacer"></span>
+    <button
+      mat-icon-button
+      class="example-icon"
+      aria-label="Example icon-button with share icon"
+      [routerLink]="['']"
+    >
+      <mat-icon>home</mat-icon>
+    </button>
+  </mat-toolbar>
+</header>
+
+<!------------------>
+
+<div class="cards-body">
+  <div *ngIf="isLoading; else content">
+    <mat-spinner class="loader"></mat-spinner>
+  </div>
+  <ng-template #content>
+    <div *ngFor="let player of team">
+      <mat-card class="player-card">
+        <mat-card-header>
+          <mat-card-title class="card-title"
+            >{{ player.name }} {{ player.lastname }}</mat-card-title
+          >
+          <mat-card-subtitle class="card-subtitle">{{ player.position }}</mat-card-subtitle>
+        </mat-card-header>
+        <img class="player-image" mat-card-image src="{{ player?.photo }}" />
+        <mat-card-content class="player-content">
+          <div *ngIf="player.age">Age: {{ player.age }}</div>
+          <div *ngIf="player.nationality">
+            Nationality: {{ player.nationality }}
+          </div>
+          <div *ngIf="player.height || player.weight">
+            {{ player.height }} {{ player.weight }}
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+  </ng-template>
+</div>

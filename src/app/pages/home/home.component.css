@@ -1,0 +1,23 @@
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.formBody{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+}
+
+.selectStyle{
+  margin: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonStyle{
+  margin-left: 10px;
+  vertical-align: text-bottom;
+  justify-content: center;
+  margin-top: 10px;
+}

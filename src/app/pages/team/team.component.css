@@ -1,0 +1,59 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.cards-body {
+  width: 100vw;
+  height: calc(100% - 5rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: scroll;
+  margin-bottom: 5rem;
+}
+
+.player-card {
+  width: 12rem;
+  height: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
+  box-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);
+  transition: box-shadow 0.3s ease-in-out;
+  margin-bottom: 1rem;
+  margin-top: 0.8rem;
+}
+
+.player-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.5s;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.5);
+}
+
+.card-title,
+.card-subtitle {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.player-image {
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.player-content {
+  padding: 1rem;
+}
+
+.loader {
+  margin: 1rem;
+  width: 100vw;
+}

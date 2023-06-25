@@ -12,6 +12,7 @@ const routes: Routes = [
     path: 'team/:id',
     component: TeamComponent,
   },
+  { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
 
 @NgModule({

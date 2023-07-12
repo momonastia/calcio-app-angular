@@ -43,7 +43,7 @@
     <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" alt="Typescript" width="40" height="40">
     <img src="https://i.postimg.cc/QtcgP7qn/material.png" alt="Angular material" width="40" height="40">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40">
-    <img src="https://avatars.githubusercontent.com/u/6078720?s=200&v=4" alt="Npm" width="40" height="40">
+    <img src="https://avatars.githubusercontent.com/u/6078720?s=200&v=4" alt="Npm" width="40" height="41">
   </ul>
 </div>
 

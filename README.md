@@ -43,9 +43,9 @@
   <h3>Tech stack:</h3>
   <ul style="display: flex; flex-direction: row; gap: 20px; align-items: center; justify-content: center;">
     <img style="width: 40px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40">
-    <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" width="40" height="40">
+    <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" alt="Typescript" width="40" height="40">
+    <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" alt="Angular material" width="40" height="40">
 
-    <!-- Добавьте другие иконки здесь -->
   </ul>
 </div>
 

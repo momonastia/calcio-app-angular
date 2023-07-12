@@ -33,16 +33,12 @@
 
       
 <hr>
-      
-     
-      
-
-      
+             
 <hr>
 <div style="display: flex; flex-direction: column; align-items: center;">
   <h3>Tech stack:</h3>
   <ul>
-    <img style="width: 40px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40">
+    <img style="width: 40px; padding: 0" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40">
     <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" alt="Typescript" width="40" height="40">
     <img src="https://i.postimg.cc/QtcgP7qn/material.png" alt="Angular material" width="40" height="40">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40">

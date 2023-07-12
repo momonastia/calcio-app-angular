@@ -43,7 +43,7 @@
   <h3>Tech stack:</h3>
   <ul style="display: flex; flex-direction: row; gap: 20px; align-items: center; justify-content: center;">
     <img style="width: 40px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40">
-    <img src="https://i.postimg.cc/gJ1rbtgY/Typescript-logo-2020-svg.png" width="40" height="40">
+    <img src="https://i.postimg.cc/gJ1rbtgY/Typescript-logo-2020-svg.png" >
 
     <!-- Добавьте другие иконки здесь -->
   </ul>

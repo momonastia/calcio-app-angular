@@ -25,9 +25,9 @@
       <h4 align="left">Formation page</h4>
 <div style="display: flex; gap: 5rem;  flex-direction: row;
         align-items: center; justify-content: center;">
-   <img src='https://i.postimg.cc/BQdSZw9y/mobile-1.png' style="height: 300px; padding: 20px; margin: 20px;" /> 
+   <img src='https://i.postimg.cc/hjyJ2bzB/mobile-3.png' style="height: 300px; padding: 20px; margin: 20px;" /> 
     <img src='https://i.postimg.cc/Y0zPc07M/mobile-2.pngg' style="height: 300px; padding: 20px; margin: 20px;" /> 
-    </div> -->
+    </div>
    
 </div>      
 

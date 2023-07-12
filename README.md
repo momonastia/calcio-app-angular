@@ -2,7 +2,7 @@
 <div style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
       
 <div style="display: flex; gap: 10px;  flex-direction: column; align-items: center; justify-content: center;">
-  <h1  align="center" style="color: white;"> Almanacco Calcio
+  <h1  align="center" style="color: white;"> Football Almanac
   <!-- <p align="center"><img src="https://i.postimg.cc/Xv1MgmX0/Capture.png" style="width: 150px; padding: 20px;"></p></h1>  --> 
 </div> 
 

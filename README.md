@@ -39,15 +39,15 @@
 
       
 <hr>
-      
- <div style="display: flex; flex-direction: column; align-items: center;">
-      <h3>Tech stack:</h3>
-      <ul style="display: flex; flex-direction: row; gap: 20px; align-items: center; justify-content: center;">
-        <img style="width: 40px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="100" height="100">
-        <img style="width: 40px; height: 40px" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="100" height="100">
-        <!-- Добавьте другие иконки здесь -->
-      </ul>
-    </div>
+<div style="display: flex; flex-direction: column; align-items: center;">
+  <h3>Tech stack:</h3>
+  <ul style="display: flex; flex-direction: row; gap: 20px; align-items: center; justify-content: center;">
+    <img style="width: 40px;" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="100" height="100">
+    <img style="width: 40px; height: 40px" src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="TypeScript" width="100" height="100">
+    <!-- Добавьте другие иконки здесь -->
+  </ul>
+</div>
+
 <hr>
 
 </body>

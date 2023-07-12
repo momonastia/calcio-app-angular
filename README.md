@@ -37,7 +37,7 @@
 <hr>
 <div style="display: flex; flex-direction: column; align-items: center;">
   <h3>Tech stack:</h3>
-  <ul>
+  <ul style="padding: 0">
     <img style="width: 40px; padding: 0" src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="40" height="40">
     <img src="https://i.postimg.cc/B6Ry52nY/Typescript-logo-2020-svg.png" alt="Typescript" width="40" height="40">
     <img src="https://i.postimg.cc/QtcgP7qn/material.png" alt="Angular material" width="40" height="40">

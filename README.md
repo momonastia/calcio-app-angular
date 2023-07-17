@@ -52,7 +52,7 @@
 <div style="display: flex; flex-direction: column;  align-items: center;">
       <h3>Team</h3>
      <p>
-       The project was done in 3 days during laboratories of Lascaux Ready for Development course.
+       The project was completed in 3 days during the laboratories of the Lascaux Ready for Development course.
      </p>
       <ul style="list-style-type: none; padding: 0px; text-align: center;">
         <li>Anastasia Tyurikova:  <a href="https://www.linkedin.com/in/anastasia-tyurikova/"  target="_blank">LinkedIn</a>,  <a href="https://github.com/momonastia"  target="_blank">GitHub</a></li>
